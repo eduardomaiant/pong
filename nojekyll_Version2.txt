@@ -1,1 +1,0 @@
-# arquivo vazio para garantir que o GitHub Pages não use Jekyll
