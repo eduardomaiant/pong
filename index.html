@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pong Simples</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Pong Simples</h1>
+    <div id="scoreboard">
+      <div class="score" id="leftScore">0</div>
+      <div class="vs">—</div>
+      <div class="score" id="rightScore">0</div>
+    </div>
+
+    <canvas id="gameCanvas" width="800" height="500" tabindex="0"></canvas>
+
+    <div class="controls">
+      <button id="startBtn">Start / Reiniciar</button>
+      <button id="pauseBtn">Pause</button>
+      <div class="hint">Controles: Mouse ou ↑ ↓ (paddle esquerdo). Espaço = pause, R = reiniciar</div>
+    </div>
+
+    <footer>
+      Feito com HTML, CSS & JavaScript — Esquerda: você, Direita: computador
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
